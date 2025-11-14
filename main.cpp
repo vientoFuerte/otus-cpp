@@ -2,10 +2,6 @@
 
 // ip_filter.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 
-//
-
-
-
 #include <cassert>
 #include <iostream>
 #include <string>
@@ -145,9 +141,6 @@ bool compareByFirstByte(const IPAddress& a, const IPAddress& b) {
     return getFirstByte(a.ip) < getFirstByte(b.ip);
 
 }
-
-
-
 
 
 // Распарсить строку с IP-адресом.
